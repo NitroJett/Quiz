@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+}
+html{
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+.main{
+  width: 100vw;
+  min-height: 80vh;
+  display: grid;
+  place-items: center;
+  background-color: darkgray;
+
+}
+.inner{
+    width: 95vw;
+    min-height: 30vh;
+   background-color: ghostwhite;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+}
+
+.inner h2{
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+    margin: 1rem 0 4rem 0;
+}
+.inner li{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+
+input{
+    cursor: pointer;
+}
+
+#submit, .btn{
+padding: 1rem 3rem;
+outline: none;
+font-size: 2rem;
+font-size: 400;
+}
+#submit{
+    margin-top: 2.5rem;
+    border: none;
+    background-color: yellow ;
+}
+#submit:hover{
+    background-color: rgb(168, 233, 71);
+}
+#showScore{
+    background-color: #dfe6e9;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+}
+.scoreArea{
+    display: none;
+}
+#showScore h3{
+    font-size: 3rem;
+    text-align: center;
+}
+#showScore .btn{
+    margin-top: 2rem;
+    background-color: #55efc4;
+    color: #2d3436;
+}
+#showScore .btn:hover{
+    background-color: #00b894;
+    color: #fff;
+}
+#showAnswer{
+    background-color: #dfe6e9;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+}
+.showAns{
+    display: none;
+}
+.green{
+    background-color: #9de7d2;
+}
